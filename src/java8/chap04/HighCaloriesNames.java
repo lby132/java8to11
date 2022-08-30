@@ -1,7 +1,10 @@
 package java8.chap04;
 
+import java.util.Arrays;
 import java.util.List;
+import java.util.Locale;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 import static java8.chap04.Dish.menu;
