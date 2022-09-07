@@ -17,8 +17,6 @@ public class Grouping {
         System.out.println("Dishes grouped by type: " + groupDishesByType());
         System.out.println("Dish names grouped by type: " + groupDishNamesByType());
         System.out.println("Dish tags grouped by type: " + groupDishTagsByType());
-
-
     }
 
     private static Map<Dish.Type, List<Dish>> groupDishesByType() {
